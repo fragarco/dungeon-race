@@ -11,14 +11,19 @@ Para facilitar la escritura en basic, se ha añadido un pequeño "parser" que no
 
 Por ejemplo, el siguiente código:
 
+```bas
 ' Código de ejemplo
 ::main
 PRINT "HOLA MUNDO"
 GOTO ::main
+```
 
 Termina reescrito por el parser como:
 
+```bas
 10 PRINT "HOLA MUNDO"
 20 GOTO 10
+```
+
 
 

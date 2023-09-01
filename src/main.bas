@@ -1,4 +1,4 @@
-' DUNGEONS AND HEROS
+' DUNGEON RACE
 ' por Javi y Ada
 ' Agosto, 2023
 
@@ -69,8 +69,8 @@ WEND
 ' PANTALLA DE INICIO
 ::game_intro
     CLS
-    LOCATE 10,5: PRINT "DUNGEONS AND HEROES"
-    LOCATE 10,6: PRINT STRING$(19, "=")
+    LOCATE 14,5: PRINT "DUNGEON RACE"
+    LOCATE 14,6: PRINT STRING$(12, CHR$(131))
     LOCATE 10,8: PRINT "Bienvenidos jugadores"
     LOCATE 7,9: PRINT "Juego creado por Javi y Ada"
     ENV 1,1,15,2,15,-1,34:ENT -1,4,3,2,4,-3,1
